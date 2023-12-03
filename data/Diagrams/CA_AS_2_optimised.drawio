@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T13:03:39.482Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="J_zXOFU_Xd90FIDhbTne" version="22.1.5" type="device">
+<mxfile host="app.diagrams.net" modified="2023-12-03T13:05:48.748Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YXPBC22G-gbwuOWvqmhH" version="22.1.5" type="device">
   <diagram name="Page-1" id="dAjCDETQ3B6Sjateg3Hk">
     <mxGraphModel dx="1430" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iuHLa0GhHNvZuV-EeRmP-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="280" y="210" width="750" height="780" as="geometry" />
+          <mxGeometry x="280" y="210" width="730" height="780" as="geometry" />
         </mxCell>
         <mxCell id="gYdATXDG7kGbHXDYzB5d-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.007;exitY=0.606;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gYdATXDG7kGbHXDYzB5d-1" target="gYdATXDG7kGbHXDYzB5d-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -71,10 +71,11 @@
         </mxCell>
         <mxCell id="iuHLa0GhHNvZuV-EeRmP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gYdATXDG7kGbHXDYzB5d-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1090" y="780" as="targetPoint" />
+            <mxPoint x="1040" y="780" as="targetPoint" />
             <Array as="points">
               <mxPoint x="977" y="819" />
-              <mxPoint x="1090" y="820" />
+              <mxPoint x="977" y="820" />
+              <mxPoint x="1040" y="820" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -90,6 +91,11 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="778" y="365" as="targetPoint" />
             <mxPoint x="660" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuHLa0GhHNvZuV-EeRmP-43" value="Create geofence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gYu_5bHP2RDGwZ4mZIuj-2">
+          <mxGeometry x="0.2061" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gYu_5bHP2RDGwZ4mZIuj-9" value="Amazon S3 (Storage Bucket)" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
@@ -127,7 +133,7 @@
         <mxCell id="gYu_5bHP2RDGwZ4mZIuj-22" value="AWS Lambda" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.lambda;" parent="1" vertex="1">
           <mxGeometry x="580" y="769" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="gYu_5bHP2RDGwZ4mZIuj-24" value="&lt;div align=&quot;center&quot;&gt;Parse new SQS message for information device info and send notification request&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="gYu_5bHP2RDGwZ4mZIuj-24" value="&lt;div align=&quot;center&quot;&gt;Parse event message for information device info and send notification request&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="559" y="869" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="gYu_5bHP2RDGwZ4mZIuj-38" value="&lt;div align=&quot;center&quot;&gt;Notify the user that they are in the proximity of a tourist attraction, or another interesting feature&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -166,7 +172,7 @@
           <mxGeometry x="610" y="220" width="20" height="140" as="geometry" />
         </mxCell>
         <mxCell id="iuHLa0GhHNvZuV-EeRmP-36" value="User Device" style="group;verticalAlign=middle;horizontal=0;labelPosition=right;verticalLabelPosition=middle;align=left;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1050" y="699" width="75" height="70" as="geometry" />
+          <mxGeometry x="1020" y="699" width="75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gYu_5bHP2RDGwZ4mZIuj-28" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=bottom;align=right;fillColor=#505050;shape=mxgraph.mscae.intune.device_group" parent="iuHLa0GhHNvZuV-EeRmP-36" vertex="1">
           <mxGeometry x="5" width="70" height="60" as="geometry" />
@@ -174,12 +180,12 @@
         <mxCell id="gYu_5bHP2RDGwZ4mZIuj-29" value="" style="shape=actor;whiteSpace=wrap;html=1;" parent="iuHLa0GhHNvZuV-EeRmP-36" vertex="1">
           <mxGeometry y="20" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iuHLa0GhHNvZuV-EeRmP-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gYu_5bHP2RDGwZ4mZIuj-28" target="gYdATXDG7kGbHXDYzB5d-29">
+        <mxCell id="iuHLa0GhHNvZuV-EeRmP-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.426;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gYu_5bHP2RDGwZ4mZIuj-28" target="gYdATXDG7kGbHXDYzB5d-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iuHLa0GhHNvZuV-EeRmP-39" value="Send location &lt;br&gt;update for device" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iuHLa0GhHNvZuV-EeRmP-38">
           <mxGeometry x="-0.2401" y="-1" relative="1" as="geometry">
-            <mxPoint x="-93" y="1" as="offset" />
+            <mxPoint x="-81" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
