@@ -44,7 +44,7 @@ def lambda_handler(event, context):
     bucket = event['Records'][0]['s3']['bucket']['name']
     key = urllib.parse.unquote_plus(event['Records'][0]['s3']['object']['key'])
 
-    filename = '/tmp/key.jpg'  # obviously one of your own pictures
+    filename = '/tmp/key.jpg'
     try:
         s3.meta.client.download_file(bucket, key, filename)
     except Exception as e:
